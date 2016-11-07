@@ -51,3 +51,8 @@
 ```Objc
     [self.gestureLockView showGestureLockViewWithState:setState];
 ````
+
+### 
+
+	谢谢支持，可能还有很多不完善的地方，期待您的建议！如果有帮到您，请不吝follow。邮箱：zhengbo073017@163.com
+
