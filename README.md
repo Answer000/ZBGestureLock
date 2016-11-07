@@ -5,21 +5,15 @@
 
 ### 简介
 * 该框架的手势解锁屏幕功能有三种状态模式
-        * 设置手势密码模式
-        * 解锁手势密码模式
-        * 重置手势密码模式
+ * 设置手势密码模式
+ * 解锁手势密码模式
+ * 重置手势密码模式
           
           
-### 使用方法
 ### 使用方式
 * 导入框架
-        * 直接将HYLabel.swift拖入项目
-	       * 该框架支持cocoapods:pod 'HYLabel', '~> 1.0.1'
- 
- 
-* 导入框架
-        * 手动导入：将 ZBGestureLock.h 和 ZBGestureLock.h 文件拖入到工程中
-        * 改框架支持cocoapods导入：  pod 'ZBGestureLock', ~> '0.0.2'
+ * 手动导入：将 ZBGestureLock.h 和 ZBGestureLock.h 文件拖入到工程中
+ * 改框架支持cocoapods导入：  pod 'ZBGestureLock', ~> '0.0.2'
     
 * 设置密码模式：setState
 ```Objc
