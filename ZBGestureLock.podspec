@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name         = 'ZBGestureLock'
-  s.version      = '0.0.1'
+  s.version      = '0.0.2'
   s.summary      = '实现手势解锁屏幕功能'
   s.homepage     = 'https://github.com/AnswerXu/ZBGestureLock.git'
   s.license      = { :type => "MIT", :file => "LICENSE" }
