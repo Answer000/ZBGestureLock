@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34A725AC1DD01782003C7A46 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A725AB1DD01782003C7A46 /* main.m */; };
+		34A725AF1DD01782003C7A46 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A725AE1DD01782003C7A46 /* AppDelegate.m */; };
+		34A725B21DD01782003C7A46 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A725B11DD01782003C7A46 /* ViewController.m */; };
+		34A725B51DD01782003C7A46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34A725B31DD01782003C7A46 /* Main.storyboard */; };
+		34A725B71DD01782003C7A46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34A725B61DD01782003C7A46 /* Assets.xcassets */; };
+		34A725BA1DD01782003C7A46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34A725B81DD01782003C7A46 /* LaunchScreen.storyboard */; };
+		34A725C51DD01782003C7A46 /* ZBGestureLockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A725C41DD01782003C7A46 /* ZBGestureLockTests.m */; };
+		34A725D01DD01783003C7A46 /* ZBGestureLockUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A725CF1DD01783003C7A46 /* ZBGestureLockUITests.m */; };
+		34A725E01DD01907003C7A46 /* ZBGestureLockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A725DF1DD01907003C7A46 /* ZBGestureLockView.m */; };
+		34A725E51DD019D2003C7A46 /* UnlockGestureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A725E31DD019D2003C7A46 /* UnlockGestureViewController.m */; };
+		34A725E61DD019D2003C7A46 /* UnlockGestureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34A725E41DD019D2003C7A46 /* UnlockGestureViewController.xib */; };
+		34A725EB1DD019DA003C7A46 /* ReSetGestureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A725E91DD019DA003C7A46 /* ReSetGestureViewController.m */; };
+		34A725EC1DD019DA003C7A46 /* ReSetGestureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34A725EA1DD019DA003C7A46 /* ReSetGestureViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		34A725C11DD01782003C7A46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34A7259F1DD01782003C7A46 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34A725A61DD01782003C7A46;
+			remoteInfo = ZBGestureLock;
+		};
+		34A725CC1DD01783003C7A46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34A7259F1DD01782003C7A46 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34A725A61DD01782003C7A46;
+			remoteInfo = ZBGestureLock;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		34A725A71DD01782003C7A46 /* ZBGestureLock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZBGestureLock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		34A725AB1DD01782003C7A46 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		34A725AD1DD01782003C7A46 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		34A725AE1DD01782003C7A46 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		34A725B01DD01782003C7A46 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		34A725B11DD01782003C7A46 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		34A725B41DD01782003C7A46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		34A725B61DD01782003C7A46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		34A725B91DD01782003C7A46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		34A725BB1DD01782003C7A46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34A725C01DD01782003C7A46 /* ZBGestureLockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZBGestureLockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		34A725C41DD01782003C7A46 /* ZBGestureLockTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZBGestureLockTests.m; sourceTree = "<group>"; };
+		34A725C61DD01782003C7A46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34A725CB1DD01783003C7A46 /* ZBGestureLockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZBGestureLockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		34A725CF1DD01783003C7A46 /* ZBGestureLockUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZBGestureLockUITests.m; sourceTree = "<group>"; };
+		34A725D11DD01783003C7A46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34A725DE1DD01907003C7A46 /* ZBGestureLockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBGestureLockView.h; sourceTree = "<group>"; };
+		34A725DF1DD01907003C7A46 /* ZBGestureLockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZBGestureLockView.m; sourceTree = "<group>"; };
+		34A725E21DD019D2003C7A46 /* UnlockGestureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnlockGestureViewController.h; sourceTree = "<group>"; };
+		34A725E31DD019D2003C7A46 /* UnlockGestureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnlockGestureViewController.m; sourceTree = "<group>"; };
+		34A725E41DD019D2003C7A46 /* UnlockGestureViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UnlockGestureViewController.xib; sourceTree = "<group>"; };
+		34A725E81DD019DA003C7A46 /* ReSetGestureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReSetGestureViewController.h; sourceTree = "<group>"; };
+		34A725E91DD019DA003C7A46 /* ReSetGestureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReSetGestureViewController.m; sourceTree = "<group>"; };
+		34A725EA1DD019DA003C7A46 /* ReSetGestureViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReSetGestureViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34A725A41DD01782003C7A46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34A725BD1DD01782003C7A46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34A725C81DD01783003C7A46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34A7259E1DD01782003C7A46 = {
+			isa = PBXGroup;
+			children = (
+				34A725A91DD01782003C7A46 /* ZBGestureLock */,
+				34A725C31DD01782003C7A46 /* ZBGestureLockTests */,
+				34A725CE1DD01783003C7A46 /* ZBGestureLockUITests */,
+				34A725A81DD01782003C7A46 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		34A725A81DD01782003C7A46 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34A725A71DD01782003C7A46 /* ZBGestureLock.app */,
+				34A725C01DD01782003C7A46 /* ZBGestureLockTests.xctest */,
+				34A725CB1DD01783003C7A46 /* ZBGestureLockUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34A725A91DD01782003C7A46 /* ZBGestureLock */ = {
+			isa = PBXGroup;
+			children = (
+				34A725DD1DD01907003C7A46 /* ZBGestureClockView */,
+				34A725E71DD019DA003C7A46 /* 重设手势密码 */,
+				34A725E11DD019D2003C7A46 /* 手势解锁屏幕 */,
+				34A725AD1DD01782003C7A46 /* AppDelegate.h */,
+				34A725AE1DD01782003C7A46 /* AppDelegate.m */,
+				34A725B01DD01782003C7A46 /* ViewController.h */,
+				34A725B11DD01782003C7A46 /* ViewController.m */,
+				34A725B31DD01782003C7A46 /* Main.storyboard */,
+				34A725B61DD01782003C7A46 /* Assets.xcassets */,
+				34A725B81DD01782003C7A46 /* LaunchScreen.storyboard */,
+				34A725BB1DD01782003C7A46 /* Info.plist */,
+				34A725AA1DD01782003C7A46 /* Supporting Files */,
+			);
+			path = ZBGestureLock;
+			sourceTree = "<group>";
+		};
+		34A725AA1DD01782003C7A46 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				34A725AB1DD01782003C7A46 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		34A725C31DD01782003C7A46 /* ZBGestureLockTests */ = {
+			isa = PBXGroup;
+			children = (
+				34A725C41DD01782003C7A46 /* ZBGestureLockTests.m */,
+				34A725C61DD01782003C7A46 /* Info.plist */,
+			);
+			path = ZBGestureLockTests;
+			sourceTree = "<group>";
+		};
+		34A725CE1DD01783003C7A46 /* ZBGestureLockUITests */ = {
+			isa = PBXGroup;
+			children = (
+				34A725CF1DD01783003C7A46 /* ZBGestureLockUITests.m */,
+				34A725D11DD01783003C7A46 /* Info.plist */,
+			);
+			path = ZBGestureLockUITests;
+			sourceTree = "<group>";
+		};
+		34A725DD1DD01907003C7A46 /* ZBGestureClockView */ = {
+			isa = PBXGroup;
+			children = (
+				34A725DE1DD01907003C7A46 /* ZBGestureLockView.h */,
+				34A725DF1DD01907003C7A46 /* ZBGestureLockView.m */,
+			);
+			path = ZBGestureClockView;
+			sourceTree = "<group>";
+		};
+		34A725E11DD019D2003C7A46 /* 手势解锁屏幕 */ = {
+			isa = PBXGroup;
+			children = (
+				34A725E21DD019D2003C7A46 /* UnlockGestureViewController.h */,
+				34A725E31DD019D2003C7A46 /* UnlockGestureViewController.m */,
+				34A725E41DD019D2003C7A46 /* UnlockGestureViewController.xib */,
+			);
+			path = "手势解锁屏幕";
+			sourceTree = "<group>";
+		};
+		34A725E71DD019DA003C7A46 /* 重设手势密码 */ = {
+			isa = PBXGroup;
+			children = (
+				34A725E81DD019DA003C7A46 /* ReSetGestureViewController.h */,
+				34A725E91DD019DA003C7A46 /* ReSetGestureViewController.m */,
+				34A725EA1DD019DA003C7A46 /* ReSetGestureViewController.xib */,
+			);
+			path = "重设手势密码";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34A725A61DD01782003C7A46 /* ZBGestureLock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34A725D41DD01783003C7A46 /* Build configuration list for PBXNativeTarget "ZBGestureLock" */;
+			buildPhases = (
+				34A725A31DD01782003C7A46 /* Sources */,
+				34A725A41DD01782003C7A46 /* Frameworks */,
+				34A725A51DD01782003C7A46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZBGestureLock;
+			productName = ZBGestureLock;
+			productReference = 34A725A71DD01782003C7A46 /* ZBGestureLock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		34A725BF1DD01782003C7A46 /* ZBGestureLockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34A725D71DD01783003C7A46 /* Build configuration list for PBXNativeTarget "ZBGestureLockTests" */;
+			buildPhases = (
+				34A725BC1DD01782003C7A46 /* Sources */,
+				34A725BD1DD01782003C7A46 /* Frameworks */,
+				34A725BE1DD01782003C7A46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34A725C21DD01782003C7A46 /* PBXTargetDependency */,
+			);
+			name = ZBGestureLockTests;
+			productName = ZBGestureLockTests;
+			productReference = 34A725C01DD01782003C7A46 /* ZBGestureLockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		34A725CA1DD01783003C7A46 /* ZBGestureLockUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34A725DA1DD01783003C7A46 /* Build configuration list for PBXNativeTarget "ZBGestureLockUITests" */;
+			buildPhases = (
+				34A725C71DD01783003C7A46 /* Sources */,
+				34A725C81DD01783003C7A46 /* Frameworks */,
+				34A725C91DD01783003C7A46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34A725CD1DD01783003C7A46 /* PBXTargetDependency */,
+			);
+			name = ZBGestureLockUITests;
+			productName = ZBGestureLockUITests;
+			productReference = 34A725CB1DD01783003C7A46 /* ZBGestureLockUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34A7259F1DD01782003C7A46 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = AnswerXu;
+				TargetAttributes = {
+					34A725A61DD01782003C7A46 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = Y4CJ7KR8N3;
+						ProvisioningStyle = Automatic;
+					};
+					34A725BF1DD01782003C7A46 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = Y4CJ7KR8N3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 34A725A61DD01782003C7A46;
+					};
+					34A725CA1DD01783003C7A46 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = Y4CJ7KR8N3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 34A725A61DD01782003C7A46;
+					};
+				};
+			};
+			buildConfigurationList = 34A725A21DD01782003C7A46 /* Build configuration list for PBXProject "ZBGestureLock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 34A7259E1DD01782003C7A46;
+			productRefGroup = 34A725A81DD01782003C7A46 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34A725A61DD01782003C7A46 /* ZBGestureLock */,
+				34A725BF1DD01782003C7A46 /* ZBGestureLockTests */,
+				34A725CA1DD01783003C7A46 /* ZBGestureLockUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34A725A51DD01782003C7A46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34A725BA1DD01782003C7A46 /* LaunchScreen.storyboard in Resources */,
+				34A725B71DD01782003C7A46 /* Assets.xcassets in Resources */,
+				34A725EC1DD019DA003C7A46 /* ReSetGestureViewController.xib in Resources */,
+				34A725E61DD019D2003C7A46 /* UnlockGestureViewController.xib in Resources */,
+				34A725B51DD01782003C7A46 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34A725BE1DD01782003C7A46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34A725C91DD01783003C7A46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34A725A31DD01782003C7A46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34A725B21DD01782003C7A46 /* ViewController.m in Sources */,
+				34A725E01DD01907003C7A46 /* ZBGestureLockView.m in Sources */,
+				34A725AF1DD01782003C7A46 /* AppDelegate.m in Sources */,
+				34A725E51DD019D2003C7A46 /* UnlockGestureViewController.m in Sources */,
+				34A725EB1DD019DA003C7A46 /* ReSetGestureViewController.m in Sources */,
+				34A725AC1DD01782003C7A46 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34A725BC1DD01782003C7A46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34A725C51DD01782003C7A46 /* ZBGestureLockTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34A725C71DD01783003C7A46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34A725D01DD01783003C7A46 /* ZBGestureLockUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		34A725C21DD01782003C7A46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34A725A61DD01782003C7A46 /* ZBGestureLock */;
+			targetProxy = 34A725C11DD01782003C7A46 /* PBXContainerItemProxy */;
+		};
+		34A725CD1DD01783003C7A46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34A725A61DD01782003C7A46 /* ZBGestureLock */;
+			targetProxy = 34A725CC1DD01783003C7A46 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		34A725B31DD01782003C7A46 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34A725B41DD01782003C7A46 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		34A725B81DD01782003C7A46 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34A725B91DD01782003C7A46 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		34A725D21DD01783003C7A46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		34A725D31DD01783003C7A46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		34A725D51DD01783003C7A46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y4CJ7KR8N3;
+				INFOPLIST_FILE = ZBGestureLock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AnswerXu.ZBGestureLock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		34A725D61DD01783003C7A46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y4CJ7KR8N3;
+				INFOPLIST_FILE = ZBGestureLock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AnswerXu.ZBGestureLock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		34A725D81DD01783003C7A46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = Y4CJ7KR8N3;
+				INFOPLIST_FILE = ZBGestureLockTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AnswerXu.ZBGestureLockTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZBGestureLock.app/ZBGestureLock";
+			};
+			name = Debug;
+		};
+		34A725D91DD01783003C7A46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = Y4CJ7KR8N3;
+				INFOPLIST_FILE = ZBGestureLockTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AnswerXu.ZBGestureLockTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZBGestureLock.app/ZBGestureLock";
+			};
+			name = Release;
+		};
+		34A725DB1DD01783003C7A46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = Y4CJ7KR8N3;
+				INFOPLIST_FILE = ZBGestureLockUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AnswerXu.ZBGestureLockUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZBGestureLock;
+			};
+			name = Debug;
+		};
+		34A725DC1DD01783003C7A46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = Y4CJ7KR8N3;
+				INFOPLIST_FILE = ZBGestureLockUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AnswerXu.ZBGestureLockUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZBGestureLock;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34A725A21DD01782003C7A46 /* Build configuration list for PBXProject "ZBGestureLock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34A725D21DD01783003C7A46 /* Debug */,
+				34A725D31DD01783003C7A46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34A725D41DD01783003C7A46 /* Build configuration list for PBXNativeTarget "ZBGestureLock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34A725D51DD01783003C7A46 /* Debug */,
+				34A725D61DD01783003C7A46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		34A725D71DD01783003C7A46 /* Build configuration list for PBXNativeTarget "ZBGestureLockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34A725D81DD01783003C7A46 /* Debug */,
+				34A725D91DD01783003C7A46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		34A725DA1DD01783003C7A46 /* Build configuration list for PBXNativeTarget "ZBGestureLockUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34A725DB1DD01783003C7A46 /* Debug */,
+				34A725DC1DD01783003C7A46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 34A7259F1DD01782003C7A46 /* Project object */;
+}

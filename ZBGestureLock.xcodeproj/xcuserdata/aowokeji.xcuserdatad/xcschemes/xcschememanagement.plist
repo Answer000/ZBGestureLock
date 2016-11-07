@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>ZBGestureLock.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>34A725A61DD01782003C7A46</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>34A725BF1DD01782003C7A46</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>34A725CA1DD01783003C7A46</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="3zX-xL-aO4">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z6H-ag-dlF">
+                                <state key="normal" title="手势解锁屏幕"/>
+                                <connections>
+                                    <segue destination="OqB-31-RG0" kind="push" id="0nG-ck-rxb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AY8-3x-hSr">
+                                <state key="normal" title="重设手势密码"/>
+                                <connections>
+                                    <segue destination="5EF-Jq-UiM" kind="push" id="iIu-6W-i2r"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Igz-jC-JXR">
+                                <state key="normal" title="清除手势密码"/>
+                                <connections>
+                                    <action selector="clearGesturePasswordClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="D51-52-yfd"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Igz-jC-JXR" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="FVb-77-Dae"/>
+                            <constraint firstItem="AY8-3x-hSr" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="IN6-mj-agw"/>
+                            <constraint firstItem="AY8-3x-hSr" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="d8P-pQ-Lwc"/>
+                            <constraint firstItem="z6H-ag-dlF" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-40.5" id="oRG-8x-7Mt"/>
+                            <constraint firstItem="Igz-jC-JXR" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="40.5" id="y7B-P4-ihm"/>
+                            <constraint firstItem="z6H-ag-dlF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="zq0-nr-ec9"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="pyc-zj-DNT"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1047" y="-730"/>
+        </scene>
+        <!--Unlock Gesture View Controller-->
+        <scene sceneID="uaQ-E1-AKb">
+            <objects>
+                <viewController id="OqB-31-RG0" customClass="UnlockGestureViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="8ef-Ba-8LA"/>
+                        <viewControllerLayoutGuide type="bottom" id="Tcj-ys-xC0"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="4bw-w9-sYu">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="bdM-Ai-Cho"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wJ2-QL-4Mh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="818" y="0.0"/>
+        </scene>
+        <!--Re Set Gesture View Controller-->
+        <scene sceneID="ZgY-UW-xOB">
+            <objects>
+                <viewController id="5EF-Jq-UiM" customClass="ReSetGestureViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="qOb-Dg-o43"/>
+                        <viewControllerLayoutGuide type="bottom" id="2cr-3V-t54"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="weU-nv-J6h">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="bUo-7D-r0t"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PkS-AG-lrl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1548" y="0.0"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="umU-mK-lID">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="3zX-xL-aO4" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="EMq-Jz-bXg">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="xSb-Q0-Afy"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6KS-lf-TD0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="327" y="-730"/>
+        </scene>
+    </scenes>
+</document>
