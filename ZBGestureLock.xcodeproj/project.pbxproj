@@ -15,11 +15,11 @@
 		34A725BA1DD01782003C7A46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34A725B81DD01782003C7A46 /* LaunchScreen.storyboard */; };
 		34A725C51DD01782003C7A46 /* ZBGestureLockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A725C41DD01782003C7A46 /* ZBGestureLockTests.m */; };
 		34A725D01DD01783003C7A46 /* ZBGestureLockUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A725CF1DD01783003C7A46 /* ZBGestureLockUITests.m */; };
-		34A725E01DD01907003C7A46 /* ZBGestureLockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A725DF1DD01907003C7A46 /* ZBGestureLockView.m */; };
 		34A725E51DD019D2003C7A46 /* UnlockGestureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A725E31DD019D2003C7A46 /* UnlockGestureViewController.m */; };
 		34A725E61DD019D2003C7A46 /* UnlockGestureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34A725E41DD019D2003C7A46 /* UnlockGestureViewController.xib */; };
 		34A725EB1DD019DA003C7A46 /* ReSetGestureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A725E91DD019DA003C7A46 /* ReSetGestureViewController.m */; };
 		34A725EC1DD019DA003C7A46 /* ReSetGestureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34A725EA1DD019DA003C7A46 /* ReSetGestureViewController.xib */; };
+		34A725F01DD094D8003C7A46 /* ZBGestureLockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A725EF1DD094D8003C7A46 /* ZBGestureLockView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,14 +56,14 @@
 		34A725CB1DD01783003C7A46 /* ZBGestureLockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZBGestureLockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		34A725CF1DD01783003C7A46 /* ZBGestureLockUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZBGestureLockUITests.m; sourceTree = "<group>"; };
 		34A725D11DD01783003C7A46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		34A725DE1DD01907003C7A46 /* ZBGestureLockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBGestureLockView.h; sourceTree = "<group>"; };
-		34A725DF1DD01907003C7A46 /* ZBGestureLockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZBGestureLockView.m; sourceTree = "<group>"; };
 		34A725E21DD019D2003C7A46 /* UnlockGestureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnlockGestureViewController.h; sourceTree = "<group>"; };
 		34A725E31DD019D2003C7A46 /* UnlockGestureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnlockGestureViewController.m; sourceTree = "<group>"; };
 		34A725E41DD019D2003C7A46 /* UnlockGestureViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UnlockGestureViewController.xib; sourceTree = "<group>"; };
 		34A725E81DD019DA003C7A46 /* ReSetGestureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReSetGestureViewController.h; sourceTree = "<group>"; };
 		34A725E91DD019DA003C7A46 /* ReSetGestureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReSetGestureViewController.m; sourceTree = "<group>"; };
 		34A725EA1DD019DA003C7A46 /* ReSetGestureViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReSetGestureViewController.xib; sourceTree = "<group>"; };
+		34A725EE1DD094D8003C7A46 /* ZBGestureLockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBGestureLockView.h; sourceTree = "<group>"; };
+		34A725EF1DD094D8003C7A46 /* ZBGestureLockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZBGestureLockView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,7 +114,7 @@
 		34A725A91DD01782003C7A46 /* ZBGestureLock */ = {
 			isa = PBXGroup;
 			children = (
-				34A725DD1DD01907003C7A46 /* ZBGestureClockView */,
+				34A725ED1DD094D8003C7A46 /* ZBGestureLockView */,
 				34A725E71DD019DA003C7A46 /* 重设手势密码 */,
 				34A725E11DD019D2003C7A46 /* 手势解锁屏幕 */,
 				34A725AD1DD01782003C7A46 /* AppDelegate.h */,
@@ -156,15 +156,6 @@
 			path = ZBGestureLockUITests;
 			sourceTree = "<group>";
 		};
-		34A725DD1DD01907003C7A46 /* ZBGestureClockView */ = {
-			isa = PBXGroup;
-			children = (
-				34A725DE1DD01907003C7A46 /* ZBGestureLockView.h */,
-				34A725DF1DD01907003C7A46 /* ZBGestureLockView.m */,
-			);
-			path = ZBGestureClockView;
-			sourceTree = "<group>";
-		};
 		34A725E11DD019D2003C7A46 /* 手势解锁屏幕 */ = {
 			isa = PBXGroup;
 			children = (
@@ -183,6 +174,15 @@
 				34A725EA1DD019DA003C7A46 /* ReSetGestureViewController.xib */,
 			);
 			path = "重设手势密码";
+			sourceTree = "<group>";
+		};
+		34A725ED1DD094D8003C7A46 /* ZBGestureLockView */ = {
+			isa = PBXGroup;
+			children = (
+				34A725EE1DD094D8003C7A46 /* ZBGestureLockView.h */,
+				34A725EF1DD094D8003C7A46 /* ZBGestureLockView.m */,
+			);
+			path = ZBGestureLockView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -324,11 +324,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				34A725B21DD01782003C7A46 /* ViewController.m in Sources */,
-				34A725E01DD01907003C7A46 /* ZBGestureLockView.m in Sources */,
 				34A725AF1DD01782003C7A46 /* AppDelegate.m in Sources */,
 				34A725E51DD019D2003C7A46 /* UnlockGestureViewController.m in Sources */,
 				34A725EB1DD019DA003C7A46 /* ReSetGestureViewController.m in Sources */,
 				34A725AC1DD01782003C7A46 /* main.m in Sources */,
+				34A725F01DD094D8003C7A46 /* ZBGestureLockView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -564,6 +564,7 @@
 				34A725D61DD01783003C7A46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		34A725D71DD01783003C7A46 /* Build configuration list for PBXNativeTarget "ZBGestureLockTests" */ = {
 			isa = XCConfigurationList;
@@ -572,6 +573,7 @@
 				34A725D91DD01783003C7A46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		34A725DA1DD01783003C7A46 /* Build configuration list for PBXNativeTarget "ZBGestureLockUITests" */ = {
 			isa = XCConfigurationList;
@@ -580,6 +582,7 @@
 				34A725DC1DD01783003C7A46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
