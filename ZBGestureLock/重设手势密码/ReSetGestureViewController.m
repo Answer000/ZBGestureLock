@@ -20,6 +20,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     ZBGestureLockView *view = [[ZBGestureLockView alloc] initWithFrame:self.view.bounds];
-    [view showGestureClockViewWithState:reSetState];
+    [view showGestureLockViewWithState:reSetState];
 }
 @end

@@ -28,15 +28,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     NSLog(@"手势密码:%@",[self.gestureLockView getGesturePassword]);
-    if (![self.gestureLockView getGesturePassword]) {
-        [self.gestureLockView showGestureClockViewWithState:setState];
-    }else{
-        [self.gestureLockView showGestureClockViewWithState:unlockState];
-    }
+    NSString *gestureP = [self.gestureLockView getGesturePassword];
+    [self.gestureLockView showGestureLockViewWithState:gestureP ? unlockState : setState];
 }
 - (IBAction)clearGesturePasswordClick:(UIButton *)sender {
     [ZBGestureLockView clearGesturePassword];
-    [self.gestureLockView showGestureClockViewWithState:setState];
+    [self.gestureLockView showGestureLockViewWithState:setState];
 }
 
 @end

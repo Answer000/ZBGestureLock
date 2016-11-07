@@ -15,7 +15,7 @@ typedef enum : NSUInteger {
     setState,
     //重设密码模式
     reSetState
-} ZBGestureClockState;
+} ZBGestureLockState;
 
 @interface ZBGestureLockView : UIView
 
@@ -24,12 +24,12 @@ typedef enum : NSUInteger {
 //错误状态下线条颜色
 @property(nonatomic,strong) UIColor *lineColorWithError;
 
-@property(nonatomic,assign) ZBGestureClockState state;
+@property(nonatomic,assign) ZBGestureLockState state;
 
 //获取本地密码
 - (NSString *)getGesturePassword;
 //清除密码
 + (void)clearGesturePassword;
 //弹出视图
-- (void)showGestureClockViewWithState:(ZBGestureClockState)state;
+- (void)showGestureLockViewWithState:(ZBGestureLockState)state;
 @end

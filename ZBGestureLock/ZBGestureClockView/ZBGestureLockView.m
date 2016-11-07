@@ -46,9 +46,6 @@ static NSString *_GPWithNew   = @"请设置新密码";
 static NSString *_GPWithError = @"密码错误";
 static NSString *_GPWithLess  = @"密码长度小于4位";
 
-//校验成功回调
-typedef void(^CalibrateSuccessBlock)(ZBGestureClockState);
-
 @implementation ZBGestureLockView
 
 #pragma mark----------------------------懒加载----------------------------
@@ -215,7 +212,7 @@ typedef void(^CalibrateSuccessBlock)(ZBGestureClockState);
     return str;
 }
 #pragma mark-  弹出视图
-- (void)showGestureClockViewWithState:(ZBGestureClockState)state{
+- (void)showGestureLockViewWithState:(ZBGestureLockState)state{
     self.state = state;
     [self resumeNormalView];
     self.messageLabel.text = _GPWithNew;
@@ -265,7 +262,7 @@ typedef void(^CalibrateSuccessBlock)(ZBGestureClockState);
 
 #pragma mark-------------------------解锁模式----------------------------
 #pragma mark-  校验密码
-- (void)calibrateGesturePassword:(ZBGestureClockState)state{
+- (void)calibrateGesturePassword:(ZBGestureLockState)state{
     //设置当前点为最后选择按钮的中心点
     self.currentP = self.selectedBtns.lastObject.center;
     //判断是否图形正确
