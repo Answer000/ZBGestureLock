@@ -3,14 +3,13 @@
     * 用于实现手势解锁屏幕功能，两行代码实现手势锁设置、解锁、重置功能；
     * 框架地址：[https://github.com/AnswerXu/ZBGestureLock.git](https://github.com/AnswerXu/ZBGestureLock.git)
 
-###简介
-
+### 简介
 * 该框架的手势解锁屏幕功能有三种状态模式：
-     * 设置手势密码模式；
-     * 解锁手势密码模式；
-     * 重置手势密码模式；
-###用法
-
+                                 * 设置手势密码模式；
+                                 * 解锁手势密码模式；
+                                 * 重置手势密码模式；
+                                 
+### 使用方法
 * 设置密码模式：setState
 ```Objc
     //懒加载视图
@@ -38,12 +37,12 @@
     [view showGestureLockViewWithState:reSetState];
 ```
 
-###清除密码
+### 清除密码
 ```Objc
     [ZBGestureLockView clearGesturePassword];
 ```
 
-###弹出视图
+### 弹出视图
 ```Objc
     [self.gestureLockView showGestureLockViewWithState:setState];
 ````
