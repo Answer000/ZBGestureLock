@@ -11,6 +11,9 @@
           
           
 ### 使用方式
+* 如图所示
+* ![image](https://github.com/AnswerXu/ZBGestureLock/blob/master/gestureLock.gif)
+
 * 导入框架
  * 手动导入：将 ZBGestureLock.h 和 ZBGestureLock.h 文件拖入到工程中
  * 改框架支持cocoapods导入：  pod 'ZBGestureLock', ~> '0.0.2'
