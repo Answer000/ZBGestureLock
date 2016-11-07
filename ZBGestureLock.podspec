@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.author       = { "AnswerXu" => "zhengbo073017@163.com" }
   s.source       = { :git => 'https://github.com/AnswerXu/ZBGestureLock.git', :tag => "#{s.version}" }
   s.platform     = :ios, '8.0'
-  s.source_files = 'ZBGestureLockView/ZBGestureLockView/*.{h,m}'
+  s.source_files = 'ZBGestureLock/ZBGestureLockView/*.{h,m}'
   s.framework    = 'UIKit'
   s.requires_arc = true
 end
