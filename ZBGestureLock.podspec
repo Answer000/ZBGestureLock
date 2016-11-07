@@ -9,6 +9,6 @@ Pod::Spec.new do |s|
   s.source       = { :git => "http://EXAMPLE/ZBGestureLock.git", :tag => "#{s.version}" }
   s.platform     = :ios, '8.0'
   s.source_files  = "ZBGestureClockView/ZBGestureClockView.{h,m}"
-  s.exclude_files = "Classes/Exclude"
   s.framework    = 'UIKit'
+  s.requires_arc = true
 end
