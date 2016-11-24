@@ -16,8 +16,10 @@
 
 * 导入框架
  * 手动导入：将 ZBGestureLock.h 和 ZBGestureLock.h 文件拖入到工程中
- * 改框架支持cocoapods导入：  pod 'ZBGestureLock', ~> '0.0.2'
-    
+ * 改框架支持cocoapods导入：
+   ```
+   pod 'ZBGestureLock', ~> '0.0.2'
+   ```
 * 设置密码模式：setState
 ```Objc
     //懒加载视图
